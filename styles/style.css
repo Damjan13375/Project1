@@ -1,0 +1,416 @@
+#opacity {
+    display: none;
+    z-index: 99912312319;
+    position: fixed;
+    top: 0px;
+    left: 300px;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
+    /* transition: 0.5s; */
+}
+
+.snav2 a:nth-child(1),
+.snav2 a:nth-child(2) {
+    color: rgb(252, 210, 50);
+}
+
+body {
+    z-index: 20;
+}
+
+
+/* .this123 {
+             background-color: rgba(0, 0, 0, 0.5);
+         } */
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 30300;
+}
+
+.bg-color {
+    background-color: rgb(51, 1, 107);
+    height: 75px;
+    /* position: relative; */
+}
+
+.fixMarg {
+    margin-top: 7.5rem;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_left,
+.nav_mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_left {
+    width: 20%;
+    margin-left: 2.2rem;
+}
+
+.snav2 a {
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.snav2 a:first-child {
+    margin-top: 5rem;
+}
+
+.logo22 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+.logo22-img {
+    width: 12rem;
+    height: 4rem;
+}
+
+.nav_mid {
+    width: 50%;
+    position: relative;
+}
+
+.navbar_brand {
+    width: fit-content;
+    position: absolute;
+    left: 30rem;
+}
+
+.nav_right {
+    margin-top: 0.9rem;
+    margin-right: 1.5rem;
+}
+
+.btn1 {
+    background-color: transparent;
+    border: none !important;
+    height: 30px;
+    width: 30px;
+}
+
+.btn1 .fas {
+    color: rgb(252, 210, 50);
+    transform: scale(3, 2);
+    display: inline-block;
+}
+
+.btn2 {
+    margin-top: 1.2rem;
+    margin-right: 10px;
+    font-weight: 600;
+    background-color: rgb(252, 210, 50);
+    color: black;
+}
+
+.btn3 {
+    margin-top: 1.2rem;
+    color: rgb(252, 210, 50);
+    font-weight: 600;
+    background-color: black;
+}
+
+.btn2:hover {
+    color: black;
+}
+
+.btn3:hover {
+    color: rgb(252, 210, 50);
+}
+
+.nofocus:hover {
+    text-decoration: none;
+}
+
+.nofocus:focus {
+    text-decoration: none;
+}
+
+.intro {
+    color: white;
+    height: 30vh;
+}
+
+.screen1 {
+    height: 135vh;
+    background: linear-gradient(173deg, rgba(51, 1, 107, 1) 0%, rgba(51, 1, 107, 1) 69%, rgba(255, 255, 255, 1) 69.5%);
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.screen1 h1 {
+    margin-top: 8rem;
+    font-weight: 700;
+}
+
+.centered_mt {
+    width: 65%;
+    margin: 20px auto;
+    font-weight: 600;
+}
+
+.int {
+    color: white;
+    margin-top: 4rem;
+}
+
+.link2 {
+    color: black;
+    text-decoration: none;
+}
+
+.link2:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.button22 {
+    background-color: rgb(252, 210, 50);
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+}
+
+.neg_margin {
+    margin-top: -45rem;
+}
+
+.card {
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+}
+
+.image {
+    height: 20em;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.nohover {
+    color: black;
+}
+
+.nohover:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.boxshad {
+    -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.51);
+    box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.51);
+    background-color: white;
+    min-height: 41.9rem;
+}
+
+.dleft h4 {
+    font-weight: 600;
+}
+
+.description,
+.time {
+    padding: 0 1.5rem;
+}
+
+.timeText {
+    display: inline-block;
+    width: 70%;
+    margin-left: 1.5rem;
+}
+
+.description {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    /* display: inline-block; */
+    width: 100%;
+}
+
+.dgrey {
+    display: inline-block;
+    background-color: rgb(42, 58, 57);
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+
+* {
+    z-index: 123;
+}
+
+.dright {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.dleft {
+    display: inline-block;
+}
+
+.category {
+    font-size: 1.5rem;
+}
+
+.category span {
+    color: cyan;
+    font-weight: bold;
+}
+
+.screen1b {
+    height: 125vh;
+    background: linear-gradient(350deg, rgba(51, 1, 107, 1) 0%, rgba(51, 1, 107, 1) 69%, rgba(255, 255, 255, 1) 69.2%);
+    margin-top: -42rem;
+    z-index: 8;
+}
+
+.introb {
+    color: white;
+    height: 30vh;
+    margin-top: 10rem;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.width-50 {
+    width: 50%;
+    position: relative;
+}
+
+.d-inline-block {
+    height: 100%;
+}
+
+.bg2 {
+    background-color: rgb(51, 1, 107);
+    padding: 2rem 0;
+    height: 7.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.margin-r {
+    margin-right: 2.5rem;
+}
+
+.margin-r:hover {
+    color: rgb(252, 210, 50);
+}
+
+.bLink {
+    color: rgb(252, 210, 50);
+    text-decoration: none;
+}
+
+.bLink1 {
+    color: white;
+    text-decoration: none;
+}
+
+.bLink1:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.lilMarg {
+    margin-top: 1rem;
+}
+
+
+/* The side navigation menu */
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 6868001;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: white;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 2rem;
+    /* Place content 60px from the top  transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav .closebtn {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.dnone {
+    display: none;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-width:768px) {
+    .image {
+        height: 15em;
+    }
+    .boxshad {
+        min-height: 39.5rem;
+    }
+    .navbar_brand {
+        left: 15rem;
+    }
+    .nav_right {
+        width: 34rem;
+        margin-right: 0;
+    }
+    .btn2,
+    .btn3 {
+        font-size: 10px;
+    }
+}
+
+@media screen and(max-width:425px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    .image {
+        display: none !important;
+    }
+    .screen1b {
+        margin-top: -10rem;
+    }
+    .dnone {
+        font-size: 11.5px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .dnone {
+        font-size: 9px;
+    }
+}

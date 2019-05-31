@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brainster ToolBox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="..\styles\games.css">
+    <link rel="stylesheet" media="screen and (max-width:425px)" href="..\styles\gamesmedia.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.brainster.co/assets/images/favicon_dark/apple-icon-57x57.png" />
+</head>
+
+<body>
+    <div id="opacity"></div>
+    <nav id="navbar" class="bg-color fixed-top">
+
+        <div class="nav_left">
+            <button class="btn1" onclick="openNav()">  
+                    <i class="fas fa-bars"></i>
+                    <!-- <span>Мени</span> -->
+                </button>
+
+        </div>
+
+
+        <div id="mySidenav" class="sidenav">
+            <div class="logo22">
+                <a href="#"><img src="../imgs/logo.png" class="logo22-img" alt="BRAINSTER"></a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i> Затвори </a>
+            </div>
+            <div class="snav2">
+                <a href="register.html">Регистрирај се</a>
+                <a href="#">Најави се</a>
+                <a href="https://brainster.co/about">За нас</a>
+                <a href="https://www.facebook.com/pg/brainster.co/photos/">Галерија</a>
+                <a href="https://brainster.co/contact">Контакт</a>
+            </div>
+        </div>
+
+
+        <div class="nav_mid text-center">
+            <a class="navbar_brand" href="#"><img height="46px" class="navimg" width="155px" src="../imgs/logo.png" alt="BRAINSTER"></a>
+
+        </div>
+
+
+        <div class="nav_right">
+            <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn2">Обуки за компании</a>
+
+            <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn3"> Вработи наши студенти</a>
+
+        </div>
+
+    </nav>
+    <div class="container-fluid">
+        <div class="row bgimg1" style="background-image: url(../imgs/stock7.jpg);">
+
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="int ">
+                    <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn2 dnone">Обуки за компании</a>
+
+                    <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn3 dnone"> Вработи наши студенти</a>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>3 Action Steps </h1>
+                        <div id="fascilitation">
+                            <div class="w-25">
+                                <div class="flexap">
+                                    <i class="far fa-clock fa-2x"></i>
+
+                                    <div class="conditions">
+
+                                        <p class="fw2">Временска рамка</p>
+                                        <p class="text-muted">120-240 минути
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-25">
+                                <div class="flexap">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="conditions">
+                                        <p class="fw2">Големина на група
+                                        </p>
+                                        <p class="text-muted">2-10
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-25">
+                                <div class="flexap">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="conditions">
+                                        <p class="fw2">Ниво за фасилитирање
+                                        </p>
+                                        <p class="text-muted">Средно
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-25">
+                                <div class="flexap">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="conditions">
+                                        <p class="fw2">Материјали
+                                        </p>
+                                        <p class="text-muted">Пенкала/маркери во боја А3 формат хартија
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border-bottom: 1px solid rgba(0,0,0,0.5); font-size: 18px;">
+                            <p>Ова е мала стратешка сесија за планирање која им помага на групи и поединци да преземат акција кон посакуваните промени. Често се користи на крајот од работилницата или програмата. Групата дискутира и се согласува со визија,
+                                а потоа создава некои чекори за дејствување кои ќе ги водат кон таа визија. Обемот на предизвикот исто така е дефиниран, преку дискусија за корисни и штетни фактори кои влијаат врз групата.
+                            </p>
+
+
+                        </div>
+                        <div style="border-bottom: 1px solid rgba(0,0,0,0.5);font-size: 18px;">
+                            <h3>Чекор 1:</h3>
+                            <p>
+                                Започнете: Затворете ги очите и замислете дека сте 6 месеци од сега. Замислете дека сте постигнале се што сте поставиле како цел. Размислете за она што сте го направиле во текот на шесте месеци. Вашата работа. Вашите односи со останатите. Што ве прави
+                                среќни. Дајте им на учениците пенкала и хартија. Тие сега ќе ја креираат својата визија за иднината на десната страна на хартијата. Ограничете ги на 4 или 5 различни теми кои ја сочинуваат оваа визија, користејќи неколку
+                                зборови, но колку што сакаат визуелни елементи. Ако тие се во групи, тие треба да разговараат за нивните визии и да дефинираат заедничка група визија.
+
+                            </p>
+
+                        </div>
+                        <div style="border-bottom: 1px solid rgba(0,0,0,0.5);font-size: 18px;">
+                            <h3>Чекор 2:</h3>
+                            <p>
+                                Побарајте од нив да напишат најмалку 5 корисни фактори на врвот на страната, кои ќе ги поддржат за да ја реализираат својата визија. Тоа може да бидат луѓе, можности, технологии, ситуации, итн.
+
+
+                            </p>
+
+                        </div>
+                        <div style="border-bottom: 1px solid grey;font-size: 18px;">
+                            <h3>Чекор 3:</h3>
+                            <p>
+                                Во дното на страницата побарајте од нив да напишат најмалку 5 придружни фактори кои ќе ги поддржат за да ја реализираат својата визија. Повторно, ова може да бидат луѓе, можности, технологии, ситуации, итн.
+                            </p>
+
+                        </div>
+                        <div style="border-bottom: 1px solid grey;font-size: 18px;">
+                            <h3>Чекор 4:</h3>
+                            <p>
+                                Сега групата или поединците ќе дискутираат и ќе ги дефинираат чекорите за акција. Побарајте од нив да нацртаат три кутии од левата страна на хартијата до визијата на десната страна. Ова ќе бидат трите големи чекори што треба да ги преземат за да се постигне
+                                нивната визија. Ако работат како поединци, тогаш ги ставате во парови за да разговараат за нивните чекори. Ако веќе се во групи, тогаш може да разговараат за чекорите што ги прават. Тие пишуваат чекор во секоја кутија,
+                                концизно, но со толку многу детали што им се потребни за да им биде јасно на самите себе и на другите.
+                            </p>
+
+                        </div>
+                        <div style="border-bottom: 1px solid grey;font-size: 18px;">
+                            <h3>Чекор 5:</h3>
+                            <p>
+                                За да ја затворите сесијата, отидете околу групата, барајќи од сите да ја искажат својата визија и еден (или сите три) чекори за акција. Прашајте го секое лице: Која е првото нешто што ќе го направите кога ќе се вратите во канцеларија. </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row screen1b ">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="introb ">
+                    <h1>FUTURE-PROOF YOUR ORGANIZATION</h1>
+                    <h5 class="centered_mt">Find out how to unlock progress in your business. Understand your current state, identify oppertunity areas and prepare to take charge of your organization's future</h5>
+
+                    <a class="link2 btn button22" href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank">Take the assesment</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="row bg2">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 ">
+                <div class="row bottomnav">
+                    <div class="col-md-3 col-sm-3 col-xs-12 order-2 d-inline-block">
+                        <ul class="list-inline lilMarg">
+                            <li class="list-inline-item"><a href="https://brainster.co/about" class=" bLink1" target="_blank">About Us</a> </li>
+                            <li class="list-inline-item"><a href="https://brainster.co/contact" class=" bLink1" target="_blank"> Contact</a></li>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/pg/brainster.co/photos/" class=" bLink1" target="_blank"> Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 order-3 width-50 text-center d-inline-block">
+                        <a class="Bnavbar-brand" href="#"><img height="46px" width="155px" src="../imgs/logo.png" alt="BRAINSTER"></a>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 order-1 text-right d-inline-block bLink">
+                        <a href="https://www.linkedin.com/school/brainster-co/" class="margin-r bLink" target="_blank"> <i class="fab fa-linkedin-in fa-2x"></i></a>
+                        <a href="https://twitter.com/brainsterco?lang=en" class="margin-r bLink" target="_blank"> <i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="https://www.facebook.com/brainster.co/" class="margin-r bLink" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/games.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brainster ToolBox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="..\styles\games.css">
+    <link rel="stylesheet" media="screen and (max-width:425px)" href="..\styles\gamesmedia.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.brainster.co/assets/images/favicon_dark/apple-icon-57x57.png" />
+</head>
+
+<body>
+    <div id="opacity"></div>
+    <nav id="navbar" class="bg-color fixed-top">
+
+        <div class="nav_left">
+            <button class="btn1" onclick="openNav()">  
+                    <i class="fas fa-bars"></i>
+                    <!-- <span>Мени</span> -->
+                </button>
+
+        </div>
+
+
+        <div id="mySidenav" class="sidenav">
+            <div class="logo22">
+                <a href="#"><img src="../imgs/logo.png" class="logo22-img" alt="BRAINSTER"></a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i> Затвори </a>
+            </div>
+            <div class="snav2">
+                <a href="register.html">Регистрирај се</a>
+                <a href="#">Најави се</a>
+                <a href="https://brainster.co/about">За нас</a>
+                <a href="https://www.facebook.com/pg/brainster.co/photos/">Галерија</a>
+                <a href="https://brainster.co/contact">Контакт</a>
+            </div>
+        </div>
+
+
+        <div class="nav_mid text-center">
+            <a class="navbar_brand" href="#"><img height="46px" class="navimg" width="155px" src="../imgs/logo.png" alt="BRAINSTER"></a>
+
+        </div>
+
+
+        <div class="nav_right">
+            <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn2">Обуки за компании</a>
+
+            <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn3"> Вработи наши студенти</a>
+
+        </div>
+
+    </nav>
+    <div class="container-fluid">
+        <div class="row bgimg1" style="background-image: url(../imgs/stock3.jpg);">
+
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="int ">
+                    <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn2 dnone">Обуки за компании</a>
+
+                    <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn3 dnone"> Вработи наши студенти</a>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Future Trends </h1>
+                        <div id="fascilitation">
+                            <div class="w-25">
+                                <div class="flexap">
+                                    <i class="far fa-clock fa-2x"></i>
+
+                                    <div class="conditions">
+
+                                        <p class="fw2">Временска рамка</p>
+                                        <p class="text-muted">60-120 минути
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-25">
+                                <div class="flexap">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="conditions">
+                                        <p class="fw2">Големина на група
+                                        </p>
+                                        <p class="text-muted">2-40</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-25">
+                                <div class="flexap">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="conditions">
+                                        <p class="fw2">Ниво за фасилитирање
+                                        </p>
+                                        <p class="text-muted">Средно
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-25">
+                                <div class="flexap">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="conditions">
+                                        <p class="fw2">Материјали
+                                        </p>
+                                        <p class="text-muted">Пенкала Бела табла или флипчарт Маркери Селотејп
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border-bottom: 1px solid rgba(0,0,0,0.5); font-size: 18px;">
+                            <p>
+                                Оваа алатка им помага на малите и големите групи да ги идентификуваат клучните трансформативни трендови во текот на следните три години, да ги истражат нивните последици и да почнат да гледаат како можат да се исполнат за да создадат можности за бизнис.
+                                До крајот на работилницата, учесниците креираат листа на најрелевантни трендови; и разработка на три најважни трендови, вклучувајќи идеи околу тоа како нивната организација би можела да дејствува за да ги исполни.
+
+                            </p>
+                        </div>
+                        <div style="border-bottom: 1px solid rgba(0,0,0,0.5);font-size: 18px;">
+                            <h3>Чекор 1:</h3>
+                            <p>
+                                Претставете ја целта на работилницата. Објаснете дека во блиска иднина ќе разговараме за трансформативните трендови и ќе разгледаме како нашата организација може да дејствува за да ги исполни тие трендови. Започнете со Stinky Fish вежбата од 20 минути,
+                                за поддршка на групата за безбедно споделување на грижите за иднината и нејзините предизвици. Целта е да се нормализира неизвесноста за иднината и да се отвори простор за разговор за тоа. Контекстот за Stinky Fish вежбата
+                                може да биде: "Сподели една грижа / страв за дигиталната иднина и како тоа ќе влијае на тебе лично или професионално".
+
+
+                            </p>
+
+                        </div>
+                        <div style="border-bottom: 1px solid rgba(0,0,0,0.5);font-size: 18px;">
+                            <h3>Чекор 2:</h3>
+                            <p>Сега групата заеднички ќе ги прикаже најрелевантните трендови кои ја менуваат нивната индустрија во текот на следните 3 години. Овој чекор има четири круга од 5 минути. Секој круг се фокусира на различна категорија: бизнис,
+                                корисничко однесување, барања за таленти и технологија. Задачата е да се размислува на колку што е можно повеќе релевантни трендови во секоја категорија. Дајте им на учесниците стикери и маркери. Потребно е да напишат еден
+                                тренд на еден стикер, и да го претстават пред групата пред да го закачат на ѕид, соодветно во некоја од 4те категории. Дајте им 5 минути по категорија. Вкупно 20 минути. Објаснете дека следниот чекор е брзо да се даде приоритет
+                                на трендовите во кои ќе има најголемо влијание. Треба да трае околу 5 минути. Користете ја алатката Dotmocracy. Совршено е за да им се помогне на големите групи да направат брзи приоритизации. Користејќи лепливи точки или
+                                маркери, на секој учесник му доставуваме 8 точки (гласови) за да ги дистрибуирате низ трендовите што ги објавиле. Тие треба да го засноваат своето гласање за тоа кои трендови се чувствуваат "ќе имаат најголемо влијание
+                                врз нивниот бизнис во текот на следните 3 години".
+
+                            </p>
+
+                        </div>
+                        <div style="border-bottom: 1px solid grey;font-size: 18px;">
+                            <h3>Чекор 3:</h3>
+                            <p>
+                                Целта на овој чекор е групите заеднички да ги истражуваат најважните трендови и да генерираат идеи околу деловните можности што би можеле да ги отворат. Поделете ја групата во помали групи од 2-4 луѓе. Секоја нова група ќе работи со еден тренд, ги истражува
+                                своите можности, последици, потенцијални ризици и замислува: Како ќе изгледа нашата компанија за три години целосно ги искористиме можностите на овој тренд? Кои чекори треба да ги преземеме денес за да почнеме да се движиме
+                                на тој начин? На секоја група дајте и темплејт со прашања и 15-20 минути за да го завршите. Пред да почнат да работат, потсетете ги учесниците дека ова е истражувачка вежба. Тие треба да работат од она што го знаат и чувствуваат,
+                                и да го комплетираат образецот прилично брзо. Откако ќе ги пополнат шаблоните, групите повторно да продолжат со презентирање еден на друг.
+                            </p>
+
+                        </div>
+                        <div style="border-bottom: 1px solid grey;font-size: 18px;">
+                            <h3>Чекор 5:</h3>
+                            <p>
+                                Зборувајте накратко за "Што направивме денес денес". Потоа поканете го секој учесник на "одјавување" со еден увид од денот што им дава позитивно чувство за иднината. Објаснете ги следните чекори на групата. Што ќе правите со трендовите и сознанијата?
+                                Како ќе работите со нив како индивидуи и компании?
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row screen1b ">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="introb ">
+                    <h1>FUTURE-PROOF YOUR ORGANIZATION</h1>
+                    <h5 class="centered_mt">Find out how to unlock progress in your business. Understand your current state, identify oppertunity areas and prepare to take charge of your organization's future</h5>
+
+                    <a class="link2 btn button22" href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank">Take the assesment</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="row bg2">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 ">
+                <div class="row bottomnav">
+                    <div class="col-md-3 col-sm-3 col-xs-12 order-2 d-inline-block">
+                        <ul class="list-inline lilMarg">
+                            <li class="list-inline-item"><a href="https://brainster.co/about" class=" bLink1" target="_blank">About Us</a> </li>
+                            <li class="list-inline-item"><a href="https://brainster.co/contact" class=" bLink1" target="_blank"> Contact</a></li>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/pg/brainster.co/photos/" class=" bLink1" target="_blank"> Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 order-3 width-50 text-center d-inline-block">
+                        <a class="Bnavbar-brand" href="#"><img height="46px" width="155px" src="../imgs/logo.png" alt="BRAINSTER"></a>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 order-1 text-right d-inline-block bLink">
+                        <a href="https://www.linkedin.com/school/brainster-co/" class="margin-r bLink" target="_blank"> <i class="fab fa-linkedin-in fa-2x"></i></a>
+                        <a href="https://twitter.com/brainsterco?lang=en" class="margin-r bLink" target="_blank"> <i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="https://www.facebook.com/brainster.co/" class="margin-r bLink" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/games.js">
+    </script>
+</body>
+
+</html>

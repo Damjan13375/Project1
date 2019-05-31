@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brainster ToolBox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.brainster.co/assets/images/favicon_dark/apple-icon-57x57.png" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media.css" media="screen and (max-width: 425px)">
+
+</head>
+
+<body>
+    <div id="opacity"></div>
+    <nav id="navbar" class="bg-color fixed-top">
+
+        <div class="nav_left">
+            <button class="btn1" onclick="openNav()">  
+                <i class="fas fa-bars"></i>
+                <!-- <span>Мени</span> -->
+            </button>
+
+        </div>
+
+
+        <div id="mySidenav" class="sidenav">
+            <div class="logo22">
+                <a href="#"><img src="imgs/logo.png" class="logo22-img" alt="BRAINSTER"></a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i> Затвори </a>
+            </div>
+            <div class="snav2">
+                <a href="register.html">Регистрирај се</a>
+                <a href="#">Најави се</a>
+                <a href="https://brainster.co/about">За нас</a>
+                <a href="https://www.facebook.com/pg/brainster.co/photos/">Галерија</a>
+                <a href="https://brainster.co/contact">Контакт</a>
+            </div>
+        </div>
+
+
+        <div class="nav_mid text-center">
+            <a class="navbar_brand" href="#"><img height="46px" class="navimg" width="155px" src="imgs/logo.png" alt="BRAINSTER"></a>
+
+        </div>
+
+
+        <div class="nav_right">
+            <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn2">Обуки за компании</a>
+
+            <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn3"> Вработи наши студенти</a>
+
+        </div>
+
+    </nav>
+    <div class="container-fluid fixMarg">
+        <div class="row row1">
+            <div class="col-md-12 col-sm-12 col-xs-12 screen1 text-center">
+                <div class="int ">
+                    <p>Изработено од студенти на академијата за програмирање на <a href="https://brainster.co" style="text-decoration: underline;color: rgb(252, 210, 50);" target="_blank">Brainster</a></p>
+                    <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn2 dnone">Обуки за компании</a>
+
+                    <a href="https://www.brainster.io/business" target="_blank" class="nofocus btn btn3 dnone"> Вработи наши студенти</a>
+
+
+                </div>
+                <div class="intro text-center">
+                    <h1>FUTURE-PROOF YOUR ORGANIZATION</h1>
+                    <h5 class="centered_mt">Find out how to unlock progress in your business. Understand your current state, identify oppertunity areas and prepare to take charge of your organization's future</h5>
+
+                    <a class="link2 btn button22" href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank">Take the assesment</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-12">
+                <div class="row neg_margin" id="try1">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game1.html" target="_blank" id="try1" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image "></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"></h4>
+                                        <p class="category"> Категорија: <span class="cattegory"></span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game2.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img2"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"></h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game3.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img3"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"></h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game4.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img4"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"></h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game5.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image "></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"></h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game6.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image i"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"></h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game7.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image im"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"></h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game8.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img8"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"> </h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game9.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img9"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"></h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game10.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img10"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"></h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game11.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img11"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"> </h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game12.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img12"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"></h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game13.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img13"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"> </h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game14.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img14"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"> </h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game15.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img15"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"> </h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game16.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img16"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"> </h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game1.html7" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img17"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName"> </h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <a href="games/game18.html" target="_blank" class="nohover">
+                            <div class="card boxshad">
+                                <div class="image img18"></div>
+                                <div class="description">
+                                    <div class="dleft">
+                                        <h4 class="gName">Dotmocracy</h4>
+                                        <p class="category"> Категорија: <span class="cattegory">Акција</span></p>
+                                    </div>
+                                    <div class="dgrey">
+                                        <div class="dright"></div>
+                                    </div>
+                                </div>
+                                <div class="time">
+                                    <i class="far fa-clock fa-2x"></i>
+                                    <div class="timeText">
+                                        <span>Времетраење</span>
+                                        <p class="gameTime">3h 20min</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row screen1b ">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="introb ">
+                    <h1>FUTURE-PROOF YOUR ORGANIZATION</h1>
+                    <h5 class="centered_mt">Find out how to unlock progress in your business. Understand your current state, identify oppertunity areas and prepare to take charge of your organization's future</h5>
+
+                    <a class="link2 btn button22" href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank">Take the assesment</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="row bg2">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 ">
+                <div class="row bottomnav">
+                    <div class="col-md-3 col-sm-3 col-xs-12 order-2 d-inline-block">
+                        <ul class="list-inline lilMarg">
+                            <li class="list-inline-item"><a href="https://brainster.co/about" class=" bLink1" target="_blank">About Us</a> </li>
+                            <li class="list-inline-item"><a href="https://brainster.co/contact" class=" bLink1" target="_blank"> Contact</a></li>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/pg/brainster.co/photos/" class=" bLink1" target="_blank"> Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 order-3 width-50 text-center d-inline-block">
+                        <a class="Bnavbar-brand" href="#"><img height="46px" width="155px" src="imgs/logo.png" alt="BRAINSTER"></a>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 order-1 text-right d-inline-block bLink">
+                        <a href="https://www.linkedin.com/school/brainster-co/" class="margin-r bLink" target="_blank"> <i class="fab fa-linkedin-in fa-2x"></i></a>
+                        <a href="https://twitter.com/brainsterco?lang=en" class="margin-r bLink" target="_blank"> <i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="https://www.facebook.com/brainster.co/" class="margin-r bLink" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

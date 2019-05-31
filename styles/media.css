@@ -1,0 +1,142 @@
+.sidenav {
+    padding-top: 15px;
+}
+
+.sidenav a {
+    font-size: 18px;
+}
+
+.image {
+    display: none;
+}
+
+
+/* #try1 {
+        margin-top: 1rem;
+    } */
+
+.nav_right {
+    display: none;
+}
+
+.neg_margin {
+    margin-top: -20rem;
+}
+
+.navbar_brand {
+    left: -6.5rem;
+}
+
+.centered_mt {
+    width: 100%;
+    font-weight: 400;
+}
+
+.screen1 {
+    height: 125vh;
+}
+
+.dnone {
+    display: inline-block;
+    width: 45%;
+    padding: 6px 9px;
+}
+
+.screen1b {
+    margin-top: -10rem;
+    height: 85vh;
+}
+
+.introb {
+    margin-top: 25rem;
+}
+
+.bg2 {
+    height: 40vh;
+    margin-top: -1px;
+    border: none;
+}
+
+.bottomnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-inline-block {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.boxshad {
+    min-height: 13rem;
+}
+
+
+/* 
+.dgrey,
+.dgrey1 {
+    margin-left: 12rem;
+} */
+
+
+/* 
+.Rdgrey1 {
+    margin-left: 17rem;
+}
+
+.long2 {
+    margin-left: 6.9rem;
+}
+
+.long3,
+.long4,
+.long5,
+.long6 {
+    margin-left: 14.27rem;
+}
+
+.long7 {
+    margin-left: 8.21rem;
+}
+
+.long8 {
+    margin-left: 17rem;
+}
+
+.long9 {
+    margin-left: 16.9rem
+}
+
+.long10 {
+    margin-left: 13.9rem;
+}
+
+.long11 {
+    margin-left: 11.1rem;
+}
+
+.long12 {
+    margin-left: 13rem;
+}
+
+.long13 {
+    margin-left: 12.6rem;
+}
+
+.long14 {
+    margin-left: 10.7rem;
+} */

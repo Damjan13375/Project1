@@ -1,0 +1,84 @@
+.sidenav {
+    padding-top: 15px;
+}
+
+.sidenav a {
+    font-size: 18px;
+}
+
+.nav_right {
+    flex-direction: column;
+    display: flex;
+    /* justify-content: center; */
+    position: absolute;
+    align-items: center;
+    top: 8rem;
+    left: 14rem;
+}
+
+.dnone {
+    display: inline-block;
+    width: 45%;
+    padding: 6px 9px;
+    font-size: 11.5px;
+}
+
+.nav_right {
+    display: none;
+}
+
+.navbar_brand {
+    left: -6.5rem;
+}
+
+.w-25 {
+    width: 100%;
+    padding: 1rem 0.5rem;
+}
+
+.flexap {
+    justify-content: flex-start;
+}
+
+.bottomnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-inline-block {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.screen1b {
+    margin-top: -10rem;
+    height: 85vh;
+}
+
+.introb {
+    margin-top: 25rem;
+}
+
+.bg2 {
+    height: 40vh;
+    margin-top: -1px;
+    border: none;
+}
+
+.bgimg1 {
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+}

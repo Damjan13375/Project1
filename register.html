@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        Register
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="forms.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.brainster.co/assets/images/favicon_dark/apple-icon-57x57.png" />
+    <style>
+        * {
+            color: white;
+        }
+        
+        body {
+            background-color: #bf8bff;
+        }
+        
+        #message {
+            width: 529px;
+            height: 5rem;
+            padding: 6px 12px;
+            resize: none;
+        }
+        
+        @media screen and (max-width: 425px) {
+            #message {
+                width: 400px;
+            }
+        }
+        
+        @media screen and (max-width: 375px) {
+            #message {
+                width: 350px;
+            }
+        }
+        
+        @media screen and (max-width: 320px) {
+            #message {
+                width: 295px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class=" col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+                <form class="form" method="POST" action="/action_page.php">
+
+                    <div class="form-group">
+                        <label for="ime">Name:</label>
+                        <input type="text" id="ime" class="form-control white" placeholder="First Name" name="ime">
+                    </div>
+                    <div class="form-group">
+                        <label for="sur">Surname:</label>
+                        <input type="text" id="sur" class="form-control white" placeholder="Last Name" name="prezime">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comp">Company:</label>
+                        <input type="email" id="comp" class="form-control white" placeholder="Company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" id="email" class="form-control  white" placeholder="E-mail" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="num">Phone Number:</label>
+                        <input type="email" id="num" class="form-control  white" placeholder="Phone Number" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="numberoF">Number of Employees:</label>
+                        <select name="numberOfemployees" class="form-control white" id="numberoF">
+                            <option value="one">1</option>
+                            <option value="two-ten">2-10</option>
+                            <option value="eleven-fift">11-50</option>
+                            <option value="fift-twohun">51-200</option>
+                            <option value="twohunPlus">200+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="depo">Department:</label>
+
+                        <select name="depo" class="form-control white" id="depo">
+                                <option value="hr">Човечки ресурси</option>
+                                <option value="marketing">Маркетинг</option>
+                                <option value="product">Продукт</option>
+                                <option value="sales">Продажба</option>
+                                <option value="ceo">CEO</option>
+                            </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+
+                        <textarea name="message" class=" white" placeholder="Message" maxlength="300" id="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
